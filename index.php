@@ -39,3 +39,6 @@ $result = array_diff($color, $color2);
 print_r($result);
 
 
+
+//next
+
