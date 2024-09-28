@@ -1,4 +1,28 @@
-<?php
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вход в админку</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div>
+    <h2 style="text-align: center;padding-top: 80px">Вход в административную панель</h2>
+</div>
 
-$login = $_POST['login'];
-$password = $_POST['password'];
+<form action="admin/admin.php" method="post" style="text-align: center;padding-top: 100px">
+    <div class="form-group">
+        <input type="text" placeholder="Введите логин" name="login">
+    </div>
+    <div class="form-group">
+        <input type="text" placeholder="Введите пароль" name="password">
+    </div>
+    <button type="submit" class="btn btn-primary">Войти</button>
+</form>
+
+
+</body>
+</html>
