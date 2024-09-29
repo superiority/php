@@ -16,3 +16,5 @@ if($array["id" > 0]) {
     header('Location:/login.php');
 }
 
+//сегодня выходной, просто для коммита
+
