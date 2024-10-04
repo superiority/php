@@ -19,7 +19,7 @@
 
         <a href="/logout.php">Выйти</a>
     <?php  else:
-        echo '<h2> Иди авторизуйся, хакер) </h2>';
+        echo '<h2> Вы не авторизованы </h2>';
         echo '<a href="login.php">Войти</a>';
     ?>
 
