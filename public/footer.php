@@ -1,6 +1,6 @@
 </div>
 
-<div style="height: 100px; background-color:black">
+<div style="height: 100px; background-color: #222222">
 
 </div>
 
