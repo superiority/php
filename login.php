@@ -15,10 +15,10 @@
 
 <form action="admin/admin.php" method="post" style="text-align: center;padding-top: 100px">
     <div class="form-group">
-        <input type="text" placeholder="Введите логин" name="login">
+        <input type="text" placeholder="Логин" name="login">
     </div>
     <div class="form-group">
-        <input type="text" placeholder="Введите пароль" name="password">
+        <input type="text" placeholder="Пароль" name="password">
     </div>
     <button type="submit" class="btn btn-primary">Войти</button>
 </form>
