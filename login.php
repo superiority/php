@@ -10,7 +10,7 @@
 </head>
 <body>
 <div>
-    <h2 style="text-align: center;padding-top: 80px">Вход</h2>
+    <h2 style="text-align: center;padding-top: 80px">Авторизация</h2>
 </div>
 
 <form action="admin/admin.php" method="post" style="text-align: center;padding-top: 100px">
